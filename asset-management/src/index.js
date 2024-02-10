@@ -17,7 +17,7 @@ function component() {
   // element.appendChild(myIcon);
 
   const btn = document.createElement("button");
-  btn.innerHTML = "Click me and check the console!";
+  btn.innerHTML = "click me and check the console!";
   btn.onclick = printMe;
   element.appendChild(btn);
 
